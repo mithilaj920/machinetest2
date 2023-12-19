@@ -2,11 +2,15 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ImageSlider from './ImageSlider';
+import Navbarr from './Navbarr';
 
 const App = () => {
   
   return (
-    <div><ImageSlider /></div>
+    <div>
+      <Navbarr />
+      <ImageSlider />
+      </div>
   )
 }
 
